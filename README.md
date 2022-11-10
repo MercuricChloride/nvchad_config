@@ -1,0 +1,1 @@
+# This is just my current config for neovim. Feel free to copy. I am just keeping this here so it is easy for me to update my current config if I change computers or something breaks and get on with my life.
