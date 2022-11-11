@@ -13,13 +13,13 @@ local sources = {
   b.formatting.prettier,
 
   -- solidity stuff
-  b.formatting.solhint,
+  -- b.diagnostics.solhint,
 
   -- Lua
   b.formatting.stylua,
 }
 
 null_ls.setup {
-   debug = true,
+   debug = false,
    sources = sources,
 }
