@@ -12,6 +12,7 @@ lspconfig.solidity.setup({
     solidity = { includePath = '', remapping = {
       ["@OpenZeppelin/"] = 'OpenZeppelin/openzeppelin-contracts@4.6.0/',
       ["ds-test/"] = "lib/forge-std/lib/ds-test/src",
+      ["forge-std/"]="lib/forge-std/src/"
       }
     }
   }
