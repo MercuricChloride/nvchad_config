@@ -23,13 +23,6 @@ return {
       }
   },
 
-  ["jose-elias-alvarez/null-ls.nvim"] = {
-        after = "nvim-lspconfig",
-        config = function()
-           require "custom.plugins.null-ls"
-        end,
-  },
-
    -- Override plugin config if it has a module called
    -- If you wish to call a module, which is 'cmp' in this case
    ["hrsh7th/nvim-cmp"] = {
@@ -43,6 +36,9 @@ return {
       }
     end,
   },
+
+  ["github/copilot.vim"] = {}
+
   -- remove plugin
   -- ["neovim/nvim-lspconfig"] = false
 }
