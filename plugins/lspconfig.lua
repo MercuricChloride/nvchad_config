@@ -2,7 +2,7 @@ local on_attach = require("plugins.configs.lspconfig").on_attach
 local capabilities = require("plugins.configs.lspconfig").capabilities
 
 local lspconfig = require "lspconfig"
-local servers = { "html", "cssls", "clangd", "tsserver", "rls"}
+local servers = { "html", "cssls", "clangd", "tsserver", "rust-analyzer"}
 
 lspconfig.solidity.setup({
   on_attach = on_attach, -- probably you will need this.
